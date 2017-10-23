@@ -10,10 +10,6 @@
 		<script src="js/html5shiv.min.js"></script>
 		<script src="js/respond.min.js"></script>
 		<![endif]-->
-		<!-- 引入这些文件至 <head> 中 -->
-		<link rel="stylesheet" href="css/responsive-nav.css">
-		<link rel="stylesheet" href="css/styles.css">
-		<script src="js/responsive-nav.min.js"></script>
 		<meta name="description" content="小空 GitHub page">
 		<meta name="author" content="cxkong">
 		<link rel="shortcut icon" href="favicon.ico">
@@ -38,19 +34,6 @@
 						</li>
 					</ul>
 				</div>
-				<div role="main" class="main">
-					<a href="#nav" id="toggle">Menu</a>
-					<h1>Prototype</h1>
-
-					<p class="intro">
-						Test page
-					</p>
-
-					<p>
-						Test page
-					</p>
-
-				</div>
 			</div>
 			<div style="margin-left: 20px;margin-top: 38%;">
 				<footer >
@@ -61,32 +44,6 @@
 
 			</div>
 		</div>
-		<!-- 将下面这段代码放置在 </body> 之前 -->
-		<script>
-			//via https://github.com/viljamis/responsive-nav.js
-			var navigation = responsiveNav("#nav", {
-				customToggle : "#toggle"
-			});
-			//Customizable options
-			var nav = responsiveNav(".nav-collapse", {// Selector
-				animate : true, // Boolean: Use CSS3 transitions, true or false
-				transition : 284, // Integer: Speed of the transition, in milliseconds
-				label : "Menu", // String: Label for the navigation toggle
-				insert : "before", // String: Insert the toggle before or after the navigation
-				customToggle : "", // Selector: Specify the ID of a custom toggle
-				closeOnNavClick : false, // Boolean: Close the navigation when one of the links are clicked
-				openPos : "relative", // String: Position of the opened nav, relative or static
-				navClass : "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
-				navActiveClass : "js-nav-active", // String: Class that is added to <html> element when nav is active
-				jsClass : "js", // String: 'JS enabled' class which is added to <html> element
-				init : function() {
-				}, // Function: Init callback
-				open : function() {
-				}, // Function: Open callback
-				close : function() {
-				} // Function: Close callback
-			});
-		</script>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	</body>
