@@ -7,7 +7,6 @@
         }
     }
 ```
-test
 ```html
     <html>
       <body>
